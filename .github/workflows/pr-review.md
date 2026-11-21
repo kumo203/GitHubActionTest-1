@@ -38,4 +38,4 @@ safe-outputs:
 
 
 Review the diff of this pull request. Focus on correctness, security, maintainability, and test coverage.
-Post inline comments only for high-severity findings, and finish with a single review containing an overall summary. Write in Japanese.
+Post inline comments only for high-severity findings, and finish with a single review containing an overall summary. Write in Japanese and English.
