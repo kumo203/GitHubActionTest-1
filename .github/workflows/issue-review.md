@@ -11,9 +11,8 @@ engine:
   id: copilot
   model: gpt-6-luna
   env:
-    COPILOT_PROVIDER_BASE_URL: https://ai-prj-sample-3d5e3e5c-apim.azure-api.net/openai/v1
-    COPILOT_PROVIDER_API_KEY: ${{ secrets.APIM_SUBSCRIPTION_KEY }}
-    COPILOT_PROVIDER_TYPE: azure
+    COPILOT_PROVIDER_BASE_URL: https://ai-prj-sample-3d5e3e5c-apim.azure-api.net/commit-review/openai/v1
+    COPILOT_PROVIDER_API_KEY: ${{ secrets.APIM_COMMIT_REVIEW_TOKEN }}
     COPILOT_PROVIDER_WIRE_API: responses
 
 tools:
